@@ -27,7 +27,7 @@ jobs:
 
       - name: Push Docker Image to GCR
         run: |
-          docker push gcr.io/${{ secrets.GCP_PROJECT_ID }}/seu-projeto:${{ github.sha }}
+          docker push gcr.io/${{ secrets.GCP_PROJECT_ID }}/presence-hub-back:${{ github.sha }}
 
   notify-spinnaker:
     runs-on: ubuntu-latest

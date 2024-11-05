@@ -12,5 +12,5 @@ Este é o backend do sistema de controle de presença, desenvolvido em **Java 21
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/seu-projeto-backend.git
-   cd seu-projeto-backend
+   git clone https://github.com/willianSanches13/presence-hub-back.git
+   cd presence-hub-back
